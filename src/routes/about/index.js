@@ -8,7 +8,7 @@ const MainHeader = (props) => {
     <div className="mx-auto text-center">
       <h1 className="mx-auto my-0 text-uppercase">Exclusive Daycations</h1>
       <h2 className="text-white-50 mx-auto mt-2 mb-5">The online platform connecting you to the best daycations in the city.</h2>
-      <a href="http://localhost:3000/about" className="btn btn-primary js-scroll-trigger">Find Experiences</a>
+      <a href="http://zen-nightingale-8e6189.netlify.com/about" className="btn btn-primary js-scroll-trigger">Find Experiences</a>
     </div>
   </div>
   
