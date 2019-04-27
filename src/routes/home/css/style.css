@@ -1,0 +1,67 @@
+
+/* body {
+	background-image: url("https://i.ibb.co/BqZbR7R/beach-foam-iphone-wallpaper-533923.jpg");
+	background-repeat: no-repeat;
+   } */
+
+
+   .box {
+	background-color: white;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 48px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #818390;
+	font-size: 12px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #818390;
+	display: block;
+	font-weight: 400;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.booking-form .form-btn {
+	padding: 15px 10px;
+	height: 110px;
+}
+
+.booking-form .submit-btn {
+	background: #9a8067;
+	color: #fff;
+	border: none;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	height: 80px;
+	width: 100%;
+}
+
+.columns {
+	/*display: flex;*/
+	background-color: white;
+}

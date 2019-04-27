@@ -12,11 +12,15 @@ class Header extends Component {
     return <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to={'/about'}>About</NavLink>
+          <NavLink className="nav-link" activeClassName="active" to={'/'}>Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" activeClassName="active" to={'/users/'}>Dashboard</NavLink>
+          <NavLink className="nav-link" activeClassName="active" to={'/users/'}>Find Experiences</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link" activeClassName="active" to={'/register'}>Sign up</NavLink>
+        </li>
+
       </ul>
       {isLoggedIn() ? 
       <ul className="navbar-nav ml-auto">

@@ -61,7 +61,7 @@ class Register extends Component {
         <label htmlFor="exampleInputPassword1">Password</label>
         <input name="password" onChange={this.updateVal} type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
       </div>
-      <button type="submit" className="btn btn-primary">Login</button>
+      <button type="submit" className="btn btn-primary">Register</button>
     </form>
     </Layout>)
   }
